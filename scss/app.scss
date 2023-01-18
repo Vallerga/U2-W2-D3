@@ -1,0 +1,49 @@
+@import "variables";
+@import "buttons";
+
+body {
+    background-image: url("https://media.makeameme.org/created/do-nothing-check-86htym.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+  background-color: $backheader;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: $h-100 * 3;
+  img {
+    width: $w-200 / 2;
+    margin: $spaceGen;
+  }
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $backNav;
+  input {
+    height: $h-100 / 2;
+  }
+  ul {
+    color: $colorNav;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      border: solid 2px black;
+      border-radius: 15px;
+      list-style-type: none;
+      padding: $spaceGen / 4;
+      margin-left: $spaceGen / 2;
+      font: 1.2rem $butFont;
+      font-weight: bolder;
+    }
+  }
+}

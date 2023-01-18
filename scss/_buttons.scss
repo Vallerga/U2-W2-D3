@@ -1,0 +1,10 @@
+.button {
+    width: $w-200 * 0.5;
+    height: $h-100 - 10;
+    background-color: $backBut;
+    font-size: 1.2rem;
+    color: $colorBut;
+    font: 1.2rem $butFont;
+    margin: $spaceGen;
+}
+
